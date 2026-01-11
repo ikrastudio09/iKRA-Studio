@@ -24,7 +24,7 @@ export default function HeroSec() {
     <section className="relative h-screen w-full overflow-hidden">
       {/* FULL BACKGROUND IMAGE */}
       <Image
-        src="/images/hero-bg-revamped-1.jpeg"
+        src="/Images/General/Hero_BG.jpg"
         alt="iKRA Studio Hero Background"
         fill
         priority

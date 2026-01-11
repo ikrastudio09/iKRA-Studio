@@ -236,7 +236,7 @@ export default function TermsAndConditions() {
   ];
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white pt-8">
       {/* Hero Header */}
       <header className="relative bg-black text-white overflow-hidden">
         <div className="absolute inset-0 bg-linear-to-br from-black via-gray-900 to-black opacity-90"></div>
@@ -263,7 +263,7 @@ export default function TermsAndConditions() {
       </header>
 
       {/* Introduction */}
-      <div className="max-w-5xl mx-auto px-6 py-20">
+      <div className="max-w-5xl mx-auto px-6 py-2 md:py-8">
         <div className="bg-gray-50 border-l-8 border-black p-10 md:p-12 shadow-sm mb-16">
           <p className="text-xl md:text-2xl font-light leading-relaxed mb-6 text-gray-800">
             Welcome to iKRA Studio. By accessing or using our website and services, you agree to comply with and be bound by the following Terms & Conditions.

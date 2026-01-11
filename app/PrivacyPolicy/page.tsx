@@ -206,7 +206,7 @@ export default function PrivacyPolicy() {
   ];
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white pt-16">
       {/* Hero Header */}
       <header className="relative bg-black text-white overflow-hidden">
         <div className="absolute inset-0 bg-linear-to-br from-black via-gray-900 to-black opacity-90"></div>
