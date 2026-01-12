@@ -17,6 +17,10 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "iKRA Studio",
+  icons: {
+    icon:"/favicon.ico",
+    apple:"/apple-touch-icon.png"
+  },
   description: "Space where we Design..Code..Create",
 };
 
