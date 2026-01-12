@@ -105,7 +105,7 @@ const projects: Project[] = [
     description:
       "Rajput Royals is a modern marriage hall publicity website designed to enhance visibility and enquiries, featuring sections such as Home, Services, Amenities, Gallery, FAQ, and Contact. The platform includes a MailJS-powered contact form that enables direct email enquiries, along with clear content structure and visual presentation to help visitors explore facilities and connect easily for bookings.",
     stack: ["HTML", "Vanilla CSS", "Javascript", "MailJS"],
-    link: "https://rajputroyals.in",
+    link: "https://www.rajputroyals.in",
   },
 ];
 
