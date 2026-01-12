@@ -357,12 +357,6 @@ export default function TermsAndConditions() {
           </div>
         </div>
 
-        {/* Footer */}
-        <div className="mt-16 text-center">
-          <p className="text-gray-400 text-sm tracking-widest uppercase">
-            © 2026 iKRA Studio · All Rights Reserved
-          </p>
-        </div>
       </div>
     </div>
   );

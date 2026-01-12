@@ -84,15 +84,6 @@ const Footer = () => {
               <li>
                 <button
                   type="button"
-                  onClick={() => handleScroll("plans")}
-                  className="text-gray-400 text-sm hover:text-white transition-colors duration-300"
-                >
-                  Plans
-                </button>
-              </li>
-              <li>
-                <button
-                  type="button"
                   onClick={() => handleScroll("faqs")}
                   className="text-gray-400 text-sm hover:text-white transition-colors duration-300"
                 >

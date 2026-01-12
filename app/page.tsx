@@ -7,7 +7,7 @@ import ServiceSection from "@/component/ServiceSection";
 import Process from "@/component/Process";
 import PortfolioSubSection from "../component/PortFolio";
 import Testimonials from "@/component/TestimonialsSection";
-import Pricing from "@/component/PricePlans";
+// import Pricing from "@/component/PricePlans";
 import ContactUs from "@/component/ContactUs";
 import FAQ from "@/component/FAQ";
 import WhyChooseUs from "@/component/WhyChooseUs";
@@ -32,21 +32,20 @@ export default function Home() {
         <Process />
       </section>
 
-      <section id="plans" className="scroll-mt-8">
-        <Pricing />
-      </section>
-      <WhyChooseUs />
-
       <section id="testimonials" className="scroll-mt-8">
         <Testimonials />
+      </section>
+      {/* <section id="plans" className="scroll-mt-8">
+        <Pricing />
+      </section> */}
+      <WhyChooseUs />
+
+      <section id="faqs" className="scroll-mt-8">
+        <FAQ />
       </section>
 
       <section id="contactus" className="scroll-mt-8">
         <ContactUs />
-      </section>
-      
-      <section id="faqs" className="scroll-mt-8">
-        <FAQ />
       </section>
     </main>
   );

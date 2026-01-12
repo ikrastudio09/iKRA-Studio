@@ -345,13 +345,6 @@ export default function PrivacyPolicy() {
             </div>
           </div>
         </div>
-
-        {/* Footer */}
-        <div className="mt-12 sm:mt-16 text-center">
-          <p className="text-xs sm:text-sm text-gray-400 tracking-widest uppercase px-4">
-            © 2026 iKRA Studio · All Rights Reserved
-          </p>
-        </div>
       </div>
     </div>
   );
