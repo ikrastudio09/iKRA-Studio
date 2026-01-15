@@ -25,7 +25,7 @@ export default function HeroSec() {
       {/* FULL BACKGROUND IMAGE */}
       <Image
         src="/Images/General/Hero_BG.jpg"
-        alt="iKRA Studio Hero Background"
+        alt="Web development and design studio hero background"
         fill
         priority
         className="object-cover"

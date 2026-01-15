@@ -246,17 +246,17 @@ export default function TermsAndConditions() {
               <FileText className="w-12 h-12" />
             </div>
             <h1 className="text-5xl md:text-7xl font-light tracking-widest mb-6 animate-fade-in">
-              iKRA STUDIO
+              Terms and Conditions
             </h1>
             <div className="w-32 h-px bg-white mx-auto mb-6 opacity-60"></div>
             <p className="text-xl md:text-2xl font-light tracking-[0.3em] opacity-90 mb-2">
               DESIGN, CODE, CRAFT
             </p>
             <p className="text-sm tracking-widest opacity-60 uppercase mt-8">
-              Terms & Conditions
+              iKRA STUDIO
             </p>
             <p className="text-xs tracking-wider opacity-50 mt-2">
-              Last updated: January 10, 2026
+              Last updated: January 9, 2026
             </p>
           </div>
         </div>

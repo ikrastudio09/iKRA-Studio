@@ -16,12 +16,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "iKRA Studio",
+  title: "Ikra Studio | Web Development, Logo & Graphic Design Studio",
   icons: {
     icon:"/favicon.ico",
     apple:"/apple-touch-icon.png"
   },
-  description: "Space where we Design..Code..Create",
+  description: "Ikra Studio provides professional web development, logo design, and graphic design services to help brands build strong digital identities.",
 };
 
 export default function RootLayout({

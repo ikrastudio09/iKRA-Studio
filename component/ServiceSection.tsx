@@ -67,9 +67,9 @@ export default function ServicesMasonry() {
   return (
     <section className="bg-stone-50 pt-10 pb-14 font-sans tracking-normal antialiased">
       <div className="max-w-7xl mx-auto px-6">
-        <h1 className="text-4xl sm:text-5xl font-semibold text-center text-black tracking-tight">
+        <h2 className="text-4xl sm:text-5xl font-semibold text-center text-black tracking-tight">
           Our Services
-        </h1>
+        </h2>
 
         <p className="mt-3 mb-8 mx-auto max-w-2xl text-center text-sm sm:text-base text-gray-600 leading-relaxed">
           We offer innovative solutions in design and development, focused on

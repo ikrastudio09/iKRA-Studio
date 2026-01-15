@@ -11,6 +11,7 @@ import Testimonials from "@/component/TestimonialsSection";
 import ContactUs from "@/component/ContactUs";
 import FAQ from "@/component/FAQ";
 import WhyChooseUs from "@/component/WhyChooseUs";
+import Link from "next/link";
 
 export default function Home() {
   return (

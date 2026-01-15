@@ -4,7 +4,7 @@ import React from "react";
 import Image from "next/image";
 import logo from "../public/Images/Logos/iKRA_BG_Removed.png";
 import { FaWhatsapp } from "react-icons/fa";
-import { Globe } from "lucide-react";
+import {Instagram, Phone, Globe } from "lucide-react";
 import { usePathname, useRouter } from "next/navigation";
 import Link from "next/link";
 import { usePortfolio } from "@/app/context/PortfolioContext";
@@ -160,9 +160,29 @@ const Footer = () => {
                 <FaWhatsapp className="text-[24px] block translate-y-px" />
               </a>
 
+              <a
+                href="tel:+918983985787"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-11 h-11 bg-gray-800 rounded-full flex items-center justify-center hover:bg-white hover:text-black transition-all duration-300"
+                aria-label="WhatsApp"
+              >
+                <Phone size={20} />
+              </a>
+              
+              <a
+                href="https://www.instagram.com/ikra_studio_"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-11 h-11 bg-gray-800 rounded-full flex items-center justify-center hover:bg-white hover:text-black transition-all duration-300"
+                aria-label="Instagram"
+              >
+                <Instagram size={20} />
+              </a>
+
               {/* Website */}
               <a
-                href="https://ikrastudio.com"
+                href="https://ikrastudio.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-11 h-11 bg-gray-800 rounded-full flex items-center justify-center hover:bg-white hover:text-black transition-all duration-300"
